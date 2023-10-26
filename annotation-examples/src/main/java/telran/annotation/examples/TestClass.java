@@ -9,6 +9,7 @@ public class TestClass {
 	private void f1() {
 		System.out.println("test f1 failed ");
 	}
+	
 	@Test
 	void test1() {
 		f1(10);
