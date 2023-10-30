@@ -13,7 +13,7 @@ public class TestClass {
 	}
 	
 	
-	@Test
+	@Test(nRuns = 2)
 	void test1() {
 		f1(10);
 	}
